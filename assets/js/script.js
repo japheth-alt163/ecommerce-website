@@ -7,8 +7,8 @@ function addToCart(productId) {
     console.log(`Product added to cart: ${productId}`);
 }
 
-// Add event listener to the parent element of "Add to Cart" buttons
-document.querySelector('.product-list').addEventListener('click', function(event) {
+// Add event listener to the document
+document.addEventListener('click', function(event) {
     // Check if the clicked element is a "Add to Cart" button
     if (event.target.classList.contains('button')) {
         // Get the product ID from the data-id attribute of the button
