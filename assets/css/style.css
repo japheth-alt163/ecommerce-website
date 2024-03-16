@@ -336,4 +336,124 @@ footer {
 .product img {
     width: 200px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
+
+/* Styles for FAQ section */
+main {
+    padding: 20px;
 }
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.question h2 {
+    font-size: 18px;
+}
+
+.answer {
+    display: none;
+}
+
+.answer.active {
+    display: block;
+}
+
+/* Styles for the contact form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* Add styles for the shopping cart page */
+.cart-item {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.cart-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cart-item button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    background-color: #555;
+}
+
+.cart-total {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.cart-total p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button.checkout-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.checkout-btn:hover {
+    background-color: #45a049;
+}}
